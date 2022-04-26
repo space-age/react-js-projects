@@ -1,0 +1,22 @@
+.tabs-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #bbb;
+  z-index: 1;
+}
+
+.tabs-dropdown-content button {
+  float: none;
+  display: block;
+}
+
+.tabs-dropdown:hover .tabs-dropdown-content {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+}
+
+.tabs-dropdown:hover .tabs-dropdown-button {
+  background-color: #fff3bf;
+}

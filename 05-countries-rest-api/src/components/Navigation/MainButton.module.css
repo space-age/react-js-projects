@@ -1,0 +1,14 @@
+.tabs-main-button {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  padding: 0 2rem;
+  height: 7rem;
+}
+
+.tabs-main-button:hover {
+  background-color: #fff3bf;
+}
