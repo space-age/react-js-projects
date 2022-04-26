@@ -1,0 +1,14 @@
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 4.4rem;
+  margin-bottom: 4rem;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 10rem;
+  background: #339af0;
+  margin-left: auto;
+  margin-right: auto;
+}
