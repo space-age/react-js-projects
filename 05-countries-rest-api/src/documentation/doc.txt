@@ -1,0 +1,50 @@
+Command to install package to use icons: npm install @heroicons/react
+
+example on how to use it:
+///////////////////////////////////////////////////////////
+import { BeakerIcon } from '@heroicons/react/solid'
+
+function MyComponent() {
+  return (
+    <div>
+      <BeakerIcon className="h-5 w-5 text-blue-500"/>
+      <p>...</p>
+    </div>
+  )
+}
+///////////////////////////////////////////////////////////
+
+More information:
+The 24x24 outline icons can be imported from @heroicons/react/outline, and the 20x20 solid icons can be imported from @heroicons/react/solid.
+
+// async function fetchData(country) {
+//   try {
+//     const response = await fetch(`${myConstants.API_URL_NAME}/${country}`);
+//     if (!response.ok) {
+//       throw new Error("Something went wrong");
+//     }
+//     const newData = await response.json();
+//     // const data = newData[0];
+//     console.log(data);
+//     const newResult = [];
+//     newResult = data.map((rec) => {
+//       return {
+//         flag: rec.flags.png,
+//         name: rec.name.common,
+//         capital: typeof rec.capital !== "undefined" ? rec.capital : null,
+//         population: rec.population,
+//         languages:
+//           typeof rec.languages !== "undefined"
+//             ? Object.values(rec.languages)[0]
+//             : null,
+//         currencies:
+//           typeof rec.currencies !== "undefined"
+//             ? rec.currencies[Object.keys(rec.currencies)[0]].name
+//             : null,
+//         maps: rec.maps.googleMaps,
+//       };
+//     });
+//   } catch (err) {
+//     alert(err);
+//   }
+// }
