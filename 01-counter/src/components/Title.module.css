@@ -1,0 +1,7 @@
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18rem;
+  color: #212529;
+}

@@ -1,0 +1,12 @@
+.result {
+  font-size: 16rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.result_positive {
+  color: #e67700;
+}
+.result_negative {
+  color: #845ef7;
+}

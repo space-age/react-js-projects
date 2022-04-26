@@ -1,0 +1,27 @@
+button {
+  text-align: center;
+
+  display: inline-block;
+  text-transform: uppercase;
+  background: #e03131;
+  color: #222;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
+
+  border: 1px solid;
+  box-shadow: 0 5px 7px #777;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+button.other {
+  background: #845ef7;
+}
+
+button:hover {
+  color: white;
+  background: #2b8a3e;
+}
