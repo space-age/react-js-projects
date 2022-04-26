@@ -1,0 +1,22 @@
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 1.5rem;
+}
+
+.results {
+  border: 2px solid #adb5bd;
+  border-radius: 5px;
+  font-size: 3.6rem;
+  text-align: right;
+  padding: 10px;
+
+  /* Grid customization */
+  grid-column: 2/5;
+}
+
+input[type="text"],
+textarea {
+  background-color: #adb5bd;
+}

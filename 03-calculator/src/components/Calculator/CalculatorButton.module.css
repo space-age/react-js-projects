@@ -1,0 +1,25 @@
+button {
+  background-color: #f1f3f5;
+  border-color: #868e96;
+  border-radius: 5px;
+  font-size: 3.6rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+.clear {
+  background-color: #f03e3e;
+  border-color: #c92a2a;
+  color: #fff;
+}
+
+.equals {
+  background-color: #339af0;
+  border-color: #1864ab;
+  color: #fff;
+}
